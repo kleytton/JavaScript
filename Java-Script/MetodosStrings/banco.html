@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let user;
+        let valorDeposito;
+        let valorSaque;
+        
+
+
+        user = prompt  ('Qual seu nome?');
+        valorDeposito = prompt ('Qual o valor você deseja depositar?');
+        valorSaque = prompt ('Qual o valor você deseja sacar?'); 
+
+        document.write(`Olá ${user}, você fez um deposito ${valorDeposito} <br><br>`);
+        document.write(`Seu saldo atual: ${valorDeposito} <br><br>`);
+        document.write(`Você efetuou saque de: R$${valorSaque} <br><br>`)
+        document.write(` Seu saldo atual está em: R$ ${valorDeposito - valorSaque} `)
+        
+
+     </script>
+
+
+</body>
+</html>

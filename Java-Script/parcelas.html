@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantidade de parcelas</title>
+</head>
+<body>
+    <script>
+        let user, produto, valorDoProduto, parcelas;
+
+        
+
+        user = prompt('Qual seu nome?' );
+        produto = prompt('Qual produto você comprou conosco?' );
+        valorDoProduto = prompt('Qual foi o valor da sua compra?');
+        parcelas = prompt('Em quantas vezes você dividiu sua compa?');
+
+        document.write(`Olá ${user} <br><br>`);
+        document.write(` ${produto} que você compou no valor de: ${valorDoProduto} <br><br>`);
+        document.write(`Faltam R$${valorDoProduto / parcelas}, para que sua divida seja quitada. <br><br>`);
+       
+    </script>
+</body>
+</html>
